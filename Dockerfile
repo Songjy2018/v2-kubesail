@@ -1,5 +1,5 @@
 FROM alpine:latest
-ENV UUID=286cccb4-fecf-43ed-a10e-427b884b250b
+ENV UUID=4da980a4-4d72-41f6-89ce-3ecb2e51dde9
 
 RUN apk add tzdata
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
